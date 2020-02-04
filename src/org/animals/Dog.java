@@ -1,5 +1,6 @@
 package org.animals;
 
+import org.DogManager;
 
 public class Dog {
 
@@ -12,6 +13,22 @@ public class Dog {
 
 	public void takeABreath() {
 		System.out.println("...");
+	}
+
+	public void doStuff(DogManager dogManager) {
+		System.out.println("ruff");
+		System.out.println("ruff");
+		takeABreath();
+		dogManager.renameMehod();
+		
+		int age = getAge();
+		int sum = 0;
+		for (int i = 0; i < age; i++) {
+			System.out.println(i);
+			sum += i;
+		}
+		sum -= magicNumber;
+		takeABreath();
 	}
 
 }

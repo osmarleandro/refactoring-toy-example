@@ -6,4 +6,7 @@ public class Chicken extends Bird {
 		System.out.println("cackle");
 	}
 
+    public void layEgg() {
+    }
+
 }

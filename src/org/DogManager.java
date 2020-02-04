@@ -10,7 +10,10 @@ public class DogManager {
 	}
 	
 	public void doStuff() {
-		barkBark(this.dog);
+		System.out.println("ruff");
+		System.out.println("ruff");
+		this.dog.takeABreath();
+		extracted();
 		
 		int age = dog.getAge();
 		int sum = 0;
@@ -20,13 +23,6 @@ public class DogManager {
 		}
 		sum -= dog.magicNumber;
 		dog.takeABreath();
-	}
-
-	public void barkBark(Dog dog) {
-		System.out.println("ruff");
-		System.out.println("ruff");
-		dog.takeABreath();
-		extracted();
 	}
 
 	private void extracted() {

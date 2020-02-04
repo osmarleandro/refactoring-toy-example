@@ -3,6 +3,7 @@ package org.reptile;
 public class Reptile extends AnimalMarilho {
 
 	protected int age;
+    public int name;
 
 	@Override
 	public int hashCode() {

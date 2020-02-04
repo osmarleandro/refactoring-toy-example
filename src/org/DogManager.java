@@ -13,7 +13,7 @@ public class DogManager {
             System.out.println("ruff");
             System.out.println("ruff");
             this.dog.takeABreath();
-            extracted();
+            renameMethod();
 		
 		int age = dog.getAge();
 		int sum = 0;
@@ -26,7 +26,7 @@ public class DogManager {
 	}
 
 
-    private void extracted() {
+    private void renameMethod() {
         System.out.println("ruff");
         System.out.println("ruff");
         System.out.println("ruff");

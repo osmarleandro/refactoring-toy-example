@@ -26,9 +26,13 @@ public class DogManager {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		dog.takeABreath();
-		System.out.println("ruff");
-		System.out.println("ruff");
-		System.out.println("ruff");
+		extracted();
 	}
+
+    private void extracted() {
+        System.out.println("ruff");
+        System.out.println("ruff");
+        System.out.println("ruff");
+    }
 
 }

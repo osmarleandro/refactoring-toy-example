@@ -3,8 +3,6 @@ package org.felines;
 public class Feline implements Animal {
 
 	private int age;
-	private int name;
-	
 	public int getAge() {
 		return age;
 	}

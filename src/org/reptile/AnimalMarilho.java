@@ -8,6 +8,7 @@ public class AnimalMarilho {
 	
 	protected int spead;
 	protected String action;
+	protected int name;
 
 	
 

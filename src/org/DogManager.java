@@ -22,14 +22,7 @@ public class DogManager {
 		dog.takeABreath();
 	}
 
-	public void barkBark(Dog dog) {
-		System.out.println("ruff");
-		System.out.println("ruff");
-		dog.takeABreath();
-		extracted();
-	}
-
-	private void extracted() {
+	private void renameMethod() {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		System.out.println("ruff");

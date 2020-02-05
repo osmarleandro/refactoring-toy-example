@@ -26,10 +26,10 @@ public class DogManager {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		dog.takeABreath();
-		extracted();
+		renameMethod();
 	}
 
-	private void extracted() {
+	private void renameMethod() {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		System.out.println("ruff");

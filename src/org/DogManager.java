@@ -19,7 +19,7 @@ public class DogManager {
 			sum += i;
 		}
 		sum -= dog.magicNumber;
-		dog.takeABreath();
+		System.out.println("...");
 	}
 
 	private void renameMethod() {

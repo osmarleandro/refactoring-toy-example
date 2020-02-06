@@ -31,4 +31,7 @@ public class Dog {
 		takeABreath();
 	}
 
+	private void barkBark(Dog dog) {
+		dog.age = 19;
+	}
 }

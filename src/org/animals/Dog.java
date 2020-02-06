@@ -24,4 +24,9 @@ public class Dog {
 		sum -= magicNumber;
 		System.out.println("...");
 	}
+
+	private void barkBark(Dog dog) {
+		dog.age = 19;
+		
+	}
 }

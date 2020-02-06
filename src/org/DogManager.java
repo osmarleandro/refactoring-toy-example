@@ -3,6 +3,8 @@ import org.animals.Dog;
 
 
 public class DogManager {
+	
+	private String _name =  "Totó"; 
 
 	private Dog dog;
 	public DogManager(Dog aDog) {
@@ -13,6 +15,10 @@ public class DogManager {
 		System.out.println("ruff");
 		System.out.println("ruff");
 		System.out.println("ruff");
+	}
+	
+	public String get_name() {
+		return _name;
 	}
 
 }

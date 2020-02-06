@@ -2,7 +2,9 @@ package org.reptile;
 
 public class AnimalMarilho {
 
-	public AnimalMarilho() {
+    protected int age;
+
+    public AnimalMarilho() {
 		super();
 	}
 	

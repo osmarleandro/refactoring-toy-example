@@ -3,6 +3,7 @@ package org.felines;
 public class Feline implements Animal {
 
 	private int age;
+	public static final int name;
 	public int getAge() {
 		return age;
 	}
@@ -10,10 +11,10 @@ public class Feline implements Animal {
 		this.age = age;
 	}
 	public int getName() {
-		return name;
+		return Feline.name;
 	}
 	public void setName(int name) {
-		this.name = name;
+		Feline.name = name;
 	}
 	
 	public void meow() {

@@ -11,6 +11,13 @@ public class DogManager {
 		this.dog = aDog;
 	}
 
+	public void barkBark(Dog dog) {
+		System.out.println("ruff");
+		System.out.println("ruff");
+		dog.takeABreath();
+		renameMethod();
+	}
+
 	private void renameMethod() {
 		System.out.println("ruff");
 		System.out.println("ruff");

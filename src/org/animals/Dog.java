@@ -25,6 +25,10 @@ public class Dog {
 		System.out.println("...");
 	}
 
+	public void takeABreath() {
+		System.out.println("...");
+	}
+
 	private void barkBark(Dog dog) {
 		dog.age = 19;
 		
